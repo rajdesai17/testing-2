@@ -317,7 +317,7 @@ const AdminDashboard = () => {
                   <div className="ml-4">
                     <h3 className="text-gray-500 text-sm">{stat.title}</h3>
                     <p className="text-2xl font-semibold">
-                      {stat.title === 'Total Revenue' ? `$${stat.value.toFixed(2)}` : stat.value}
+                      {stat.title === 'Total Revenue' ? `₹${stat.value.toFixed(2)}` : stat.value}
                     </p>
                   </div>
                 </div>
